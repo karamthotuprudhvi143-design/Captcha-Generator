@@ -12,7 +12,7 @@ function generate() {
     const randomchar =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-    // Generate captcha for length of
+    // Generate captcha for the length of
     // 5 with random character
     for (let i = 1; i < 5; i++) {
         uniquechar += randomchar.charAt(
